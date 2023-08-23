@@ -1,6 +1,8 @@
+print("Think of a number and the computer would try to guess it correctly")
 import random
 a = int(input("enter the lower boundary?: "))
 b = int(input("enter the upper boundary?: "))
+print("enter 'h' for too high, 'l' for too low and 'c' for correct")
 
 while True: 
     random_number = random.randint(a, b)
